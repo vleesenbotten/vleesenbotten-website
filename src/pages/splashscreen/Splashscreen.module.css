@@ -1,0 +1,67 @@
+.splashscreen_outer-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /*border: 1px solid red;*/
+    position: fixed;
+    padding-top: 10px;
+}
+
+.splashscreen_inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*border: 1px solid greenyellow;*/
+    flex-basis: auto;
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+.splashscreen_image-wrapper img {
+    /*border: 1px solid blue;*/
+    height: auto;
+    max-width: 450px;
+    width: 100%;
+    opacity: 0.90;
+}
+
+.splashscreen_heading-one {
+    position: relative;
+    top: -11%;
+}
+
+.splashscreen_inner-section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.splashscreen_inner-section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 480px;
+    position: relative;
+    top: -7%;
+    gap: 20px;
+}
+
+.splashscreen_wiggle-one img,
+.splashscreen_wiggle-two img {
+    position: absolute;
+    height: auto;
+    top: 40%;
+    max-width: 350px;
+    width: 100%;
+    opacity: 0.05;
+}
+
+.splashscreen_wiggle-one img {
+    left: -120px; /* Adjust the value to position the image on the left side */
+}
+
+.splashscreen_wiggle-two img {
+    transform: scaleX(-1);
+    right: -120px; /* Adjust the value to position the image on the right side */
+}
