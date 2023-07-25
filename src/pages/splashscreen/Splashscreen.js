@@ -1,7 +1,7 @@
 import React from 'react';
 import oldBeing from "../../assets/images/large-being-one.png";
 import wiggleOne from "../../assets/images/wiggle-one.png";
-import Button from "../../components/button/Button";
+// import Button from "../../components/button/Button";
 import styles from "./Splashscreen.module.css";
 
 function Splashscreen() {
