@@ -15,7 +15,7 @@ function Splashscreen() {
                     <h1 className={styles['splashscreen_heading-one']}>The Legend of Witch Island</h1>
                 </section>
                 <section className={styles['splashscreen_inner-section-two']}>
-                    <p>this site is under construction. please return soon to us.</p>
+                    <p>this site is under construction. please return to us soon.</p>
                     {/*<div>*/}
                     {/*    Disclaimer & trigger warning: This tale contains themes of death and dying, descriptions of*/}
                     {/*    drowning, and horror elements. Reader discretion is advised.*/}
